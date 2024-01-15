@@ -20,4 +20,11 @@ La key utilizada es la URL y el body.
 La llamada al predictor tiene una limitacion de requests por segundo dependiendo del usuario que este ejecutando la consulta.
 - Freemium: 5 request por segundo
 - Preemium: 50 requests por segundo
-
+## Red Neuronal
+Se utilizó un modelo secuencial de 4 capas en este orden:
+- 50 neuronas
+- 25 neuronas
+- 35 neuronas
+- 1 neurona
+Se utilizo una tasa de aprendizaje del 0.001 y la función de perdida es la de error cuadrático medio. Los metadatos fueron elegidos
+empíricamente, es decir, mediante testeo se escogieron los parámetros que mejor resultados daba.
